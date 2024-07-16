@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "poppins";
+  /* background-color: rgba(195, 241, 255, 0.541); */
+  color: #333;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  padding: 30px;
+  left: 50%;
+  background-color: rgba(153, 227, 250, 0.664);
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+}
+#dice-result {
+  margin: 15px;
+}
+
+#numOfDice {
+  height: 35px;
+  color: #333;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+#submit {
+  height: 35px;
+  font-size: 16px;
+  background-color: rgba(5, 76, 98, 0.916);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#dice-images img {
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+}
+.footer {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer i {
+  margin: 0.5rem;
+}
+.footer .social {
+  text-align: center;
+}
+.social i {
+  font-size: 24px;
+  color: #333;
+}
+.footer p {
+  color: #333;
+}
